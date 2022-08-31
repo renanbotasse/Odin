@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+<head>
+  <title>Odin - Sword, Axe and Lance</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+   
+  <style>
+    body{
+        background-image: url(/Odin/odin-rock-paper-scissors/bg.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    section {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+
+  gap: 100px;
+  grid-auto-flow: row;
+}
+  </style>
+</head>
+<body>
+
+    <section>
+        <div>
+            <div style="margin-bottom: 30px; padding: 150px;">
+                <input type="button" class="btn btn-danger" value="Sword"></input>
+                <input type="button" class="btn btn-warning" value="Axe"></input>
+                <input type="button" class="btn btn-light" value="Lance"></input>
+              </div>
+        </div>
+        <div> </div>
+        <div style="color: white; text-align: center; font-size: large;" id="result"></div>
+      </section>
+
+  <script src="/Odin/odin-rock-paper-scissors/rps.js"></script>
+</body>
+</html>
