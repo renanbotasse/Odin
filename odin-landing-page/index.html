@@ -6,15 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GATTUSO</title>
 <style>
+    /* hero background image */
+#bgimage {
+    height:80vh;
+    background: url('/Odin/odin-landing-page/gattuso.jpeg');
+    background-size:cover;
+    position:relative;
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 4.5rem;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
     body {
+        display: flex;
         width: 100%;
         height: 100%;
-        display: flex;
         flex-direction: column;
         justify-content: space-between ;
     }
-   #bio {
-        background-color: rgb(255, 0, 0);
+   #macro {
+        display: flex;
+        width: 50%;
+        height: 50%;
+        flex-direction: row;
     }
     #honors {
         background-color: rgb(119, 118, 118);
@@ -23,64 +48,82 @@
         background-color: rgb(0, 255, 255);
     }
     img {
-        width: 100%;
+        max-height: 100%;
+        max-width: 100%;
     }
+
+
 </style>
 
 
 </head>
 <body>
+    <div id="bgimage">
+    <h1>I<br>VAN GENNARO GATTUSO</h1>
+    </div>
+<div id="macro">
 
-    <h1>GATTUSO</h1>
-    <img src="/odin-landing-page/figurinha.jpeg">
-<div id="bio">
-<h2>Bio</h2>
-    <p>Gennaro Ivan Gattuso (born 9 January 1978) is an Italian professional football coach and former player, who currently serves as head coach of La Liga club Valencia.</p>
-    <p>As a player, he mainly played in the centre as a defensive midfielder. He played for AC Milan and represented the Italy national football team.</p>
-    <p>Gattuso's talismanic midfield partnership with playmaker Pirlo, at club and international level, played a key role in Italy's World Cup victory in 2006, as well as Milan's domestic, European, and international successes during the mid-2000s. Despite not being blessed with notable technical skills, Gattuso's pace, strength, energy, aggression, and hard-tackling style of play enabled him to make a name for himself as one of the best players in the world in his position. In addition to his ball-winning abilities, Gattuso was renowned for his competitive nature and leadership qualities throughout his career, often wearing the captain's armband for Milan following Paolo Maldini's retirement.</p>
-    <p>Gattuso's coaching career began as player-coach of his final club, Sion of the Swiss Super League, and he also had short spells in charge of Palermo and OFI Crete. In June 2016, he led Pisa to Serie B promotion. He later coached both the youth side and the first team of his former club Milan between 2017 and 2019, before being appointed as manager of Napoli later that year, where he won his first title as a coach, the 2019–20 Coppa Italia.</p>
+    <div id="biofig">
+       <img src="/Odin/odin-landing-page/figurinha.jpeg">
+       <img src="/Odin/odin-landing-page/coach.jpeg">
+       <img src="/Odin/odin-landing-page/art.jpeg">
+    </div>
+    
+    <div id="biotext">
+    <h2>Bio</h2>
+        <p>Gennaro Ivan Gattuso (born 9 January 1978) is an Italian professional football coach and former player, who currently serves as head coach of La Liga club Valencia.
+        <br>As a player, he mainly played in the centre as a defensive midfielder. He played for AC Milan and represented the Italy national football team.
+        <br>Gattuso's talismanic midfield partnership with playmaker Pirlo, at club and international level, played a key role in Italy's World Cup victory in 2006, as well as Milan's domestic, European, and international successes during the mid-2000s. Despite not being blessed with notable technical skills, Gattuso's pace, strength, energy, aggression, and hard-tackling style of play enabled him to make a name for himself as one of the best players in the world in his position. In addition to his ball-winning abilities, Gattuso was renowned for his competitive nature and leadership qualities throughout his career, often wearing the captain's armband for Milan following Paolo Maldini's retirement.
+        <br>Gattuso's coaching career began as player-coach of his final club, Sion of the Swiss Super League, and he also had short spells in charge of Palermo and OFI Crete. In June 2016, he led Pisa to Serie B promotion. He later coached both the youth side and the first team of his former club Milan between 2017 and 2019, before being appointed as manager of Napoli later that year, where he won his first title as a coach, the 2019–20 Coppa Italia.</p>
+    </div>
+
 </div>
-<div id="fotos">
-    <img src="/odin-landing-page/gattuso.jpeg">
+
+<div id="macro">
+    <div id="honorstext">
+        <h2>Honors</h2>
+        <ul>
+        <li>UEFA Under-21 European Championship: 2000</li>
+        <li>Serie A: 2003–04, 2010–11</li>
+        <li>Coppa Italia: 2002–03</li>
+        <li>Supercoppa Italiana: 2004, 2011</li>
+        <li>UEFA Champions League: 2002–03, 2006–07</li>
+        <li>UEFA Super Cup: 2003, 2007</li>
+        <li>FIFA Club World Cup: 2007</li>
+        <li>FIFA World Cup: 2006</li>
+        <li>Golden Collar of Sports Merit: 2006</li>
+        <li>Ufficiale Ordine al Merito della Repubblica Italiana: 2006</li>
+        <li>Coppa Italia: 2019–20</li>
+        </ul>
+    </div>
+
+    <div id="honorsfotos">
+        <img src="/Odin/odin-landing-page/world.jpeg">
+    </div>
 </div>
-<div id="honors">
-    <h2>Honors</h2>
-<ul>
-<li>UEFA Under-21 European Championship: 2000</li>
-<li>Serie A: 2003–04, 2010–11</li>
-<li>Coppa Italia: 2002–03</li>
-<li>Supercoppa Italiana: 2004, 2011</li>
-<li>UEFA Champions League: 2002–03, 2006–07</li>
-<li>UEFA Super Cup: 2003, 2007</li>
-<li>FIFA Club World Cup: 2007</li>
-<li>FIFA World Cup: 2006</li>
-<li>Golden Collar of Sports Merit: 2006</li>
-<li>Ufficiale Ordine al Merito della Repubblica Italiana: 2006</li>
-<li>Coppa Italia: 2019–20</li>
-</ul>
+
+<div id="macro">
+    <div id="teams">
+        <h3>Player</h2>
+        <p>Perugia
+        Rangers
+        Salermitana
+        AC Milan
+        Sion</p>
+    </div>
+
+    <div id="teams">
+        <h3>Coach</h3>
+       <p>Sion
+        Palermo
+        OFI
+        Pisa
+        AC Milan
+        Napoli
+        Valência</p>
+    </div>
 </div>
-<div id="teams">
-<h3>Player</h2>
-    <img src="/odin-landing-page/world.jpeg">
-Perugia
-Rangers
-Salermitana
-AC Milan
-Sion
-</div>
-<div id="teams">
-<h3>Coach</h3>
-<img src="/odin-landing-page/coach.jpeg">
-Sion
-Palermo
-OFI
-Pisa
-AC Milan
-Napoli
-Valência
-</div>
-<div id="fim">
-    <img src="/odin-landing-page/art.jpeg">
+
 </div>
 </body>
 </html>
